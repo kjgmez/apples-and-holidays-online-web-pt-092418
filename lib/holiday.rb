@@ -74,7 +74,7 @@ def all_holidays_with_bbq(holiday_hash)
     hol.each do |k,v|
         if v.include?("BBQ")
           l << k
-        end
+        
       end
     end
   end
